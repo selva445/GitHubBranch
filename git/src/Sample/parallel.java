@@ -6,10 +6,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class parallel {
-
+	
 		
     @Test   
     public void executSessionOne(){
+    	System.out.println("Hello branch");
             //First session of WebDriver
         //System.setProperty("webdriver.chrome.driver","chromedriver.exe");
         WebDriver driver = new FirefoxDriver();
