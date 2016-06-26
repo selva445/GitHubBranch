@@ -10,7 +10,7 @@ public class parallel {
 		
     @Test   
     public void executSessionOne(){
-    	System.out.println("Hello branch");
+    	System.out.println("Hello Third  branch");
             //First session of WebDriver
         //System.setProperty("webdriver.chrome.driver","chromedriver.exe");
         WebDriver driver = new FirefoxDriver();
